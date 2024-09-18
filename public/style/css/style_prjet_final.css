@@ -1,0 +1,246 @@
+*{
+    min-width: 0;
+    font: inherit;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+img,svg{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    min-height: 100dvh;
+    background-color: aliceblue;
+}
+.header1{
+    background-color: aliceblue!important;
+}
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+}
+button.nomuser{
+    color: #b56501;
+    background-color: aliceblue!important;;
+    border: none !important;
+    font-size: 20px !important
+}
+.espace{
+    color:#b56501 !important;
+    font-size: 20px !important;
+}
+.responsive_menu{
+    background:#fff;
+}
+.scroll{
+     background-color: #00000022; 
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration:0.6s ;
+}
+
+.icone i{
+    padding: 10px;
+}
+.menu{
+   background-color: transparent;
+}
+.link{
+    color: #b56501 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.articles{
+  margin-left: 3px!important;
+}
+.article{
+    width: 18rem;
+    padding: 0!important;
+    background: linear-gradient(to bottom, #0583f71a, transparent)
+}
+.prix{
+    text-align: end;
+    color: #ff9b1f;
+}
+.titrear{
+    text-align: end;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#b56501;
+}
+
+.lienfooter a{
+    color: #b56501;
+}
+.error-input {
+    border: 2px solid red !important;
+}
+/* From uiverse.io by @satyamchaudharydev */
+/* removing default style of button */
+
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+  }
+  /* styling of whole input container */
+  .formrec {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #b56501;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+  }
+  /* styling of animated border */
+  .formrec:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .formrec:focus-within {
+    border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* here is code of animated border */
+  .formrec:focus-within:before {
+    transform: scale(1);
+  }
+  .formrec input:focus{
+      --tw-ring-color: none!important; 
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 3px;
+  }
+.card-body a{
+align-items: center;
+}
+  .btn-outline-primary{
+    color:#b56501 ;
+    border-color: #b56501;    
+  }
+  .btn-outline-primary:hover{
+    background: #b56501;
+    border-color: aqua;
+  }
+  .card-img-top{
+    height: 280px;
+  }
+  .imgdetail{
+    height: 100%;
+    width: 100%;
+  }
+  .im{
+    height: 500px;
+    width: 100%;
+  }
+  .imagecliquable,.imagecliquable img{
+    height: 100%;
+    width: 100%;
+  }
+  .imgs{
+    height: 150px;
+  }
+  .page-item.active .page-link{
+    background-color: #b56501!important;
+    border-color: #b56501!important;
+  }
+  .page-link{
+    color: #b56501;
+  }
+  .pagination{
+    justify-content: center;
+  }
+.listetitle{
+        color: #b56501;
+        font-family: 'FontAwesome';
+        font-size: xx-large;
+     }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #b56501!important;
+    }
+.form_aj_mod{
+    align-items: center;
+}
+.formaj{
+    margin-top: 70px;
+}
+.immodif{
+    height: 100px;
+}
+.bg{
+    background-color: #b56501;
+}
+.imagecliquable img.image-active {
+    filter: blur(3px); 
+}
+td.desc{
+  max-height: 100px !important;
+  overflow: auto !important;
+}
+.b_menu,.b_menu span{
+  color: #b56501!important;
+  border-color:#b56501!important ;
+}
+.b_menu:hover ,.b_menu:hover span{
+  color: #fff!important;
+  background-color: #b56501!important;
+  border-color: #b56501!important;
+}
